@@ -1,0 +1,196 @@
+section {
+  height: 100vh;
+}
+
+body {
+  font-family: "Quicksand";
+  background-color: #ececec;
+}
+
+.navbarDark {
+  background-color: rgba(18, 18, 18, 0.6352941176);
+  color: #ececec;
+}
+
+nav {
+  height: 70px;
+}
+
+.fa-compass {
+  color: black !important;
+  outline: none !important;
+}
+
+.nav-toggler-icon {
+  outline: none;
+}
+
+.nav-link,
+.navbar-brand {
+  padding: 3px;
+  color: #121212;
+  transition: 1s;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  outline: solid 1px #000000;
+  color: #000000 !important;
+}
+
+#Home h1 {
+  font-family: "Quicksand";
+  margin-top: 15rem;
+  margin-left: 2em;
+  text-align: left;
+  padding: 20px;
+}
+#Home h2 {
+  font-family: "Quicksand";
+  margin-top: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 4em;
+}
+#Home hr {
+  border-bottom: dashed 6px rgba(0, 0, 0, 0);
+}
+#Home img {
+  margin-top: 10rem;
+}
+
+/*.contact-row {
+    background-color: #CCCCCC;
+    display: flexbox;
+
+    #Socials {
+        a {
+            align-items: center;
+            color: #121212;
+            margin: 1em;
+        }
+    }
+}*/
+#Skills h2 {
+  font-size: 3em;
+  text-align: center;
+}
+#Skills .col-md-3 {
+  outline: #CCCCCC solid 4px;
+  padding: 3em;
+  margin: 3.5em;
+}
+#Skills .col-md-3 p {
+  text-align: center;
+}
+#Skills .col-md-3 h3 {
+  text-align: center;
+}
+
+#Tools {
+  margin-top: 2em;
+}
+#Tools .row h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#Tools .row .col-md-3 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em;
+  transition: 0.5s;
+}
+#Tools .row .col-md-3:hover {
+  border-radius: 20px;
+  color: #570ba3;
+  background-color: #CCCCCC;
+}
+
+#Experience .row h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#Experience .row .row {
+  padding: 2em;
+}
+#Experience .row .row h4 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#contact {
+  margin-top: 30vh;
+}
+#contact .row h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#contact .row .col-md-6 p {
+  font-size: 2.5em;
+  padding: 0 1em 0 1em;
+}
+#contact .row .col-md-6 h5 {
+  padding: 1em 2em 0 2em;
+}
+#contact .row .col-md-6 .socials {
+  margin: 2em;
+}
+#contact .row .col-md-6 .socials a {
+  color: #121212;
+  padding: 0.5em;
+}
+
+.button-40 {
+  font-family: "Quicksand";
+  text-align: center;
+  background-color: #121212;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: rgba(236, 236, 236, 0.9254901961);
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  -webkit-text-decoration: none #6B7280 solid;
+          text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: 0.75rem 1.5rem;
+  }
+}
+footer {
+  text-align: center;
+}
+footer small {
+  font-size: 1.3em;
+  padding: 2em;
+}/*# sourceMappingURL=style.css.map */
